@@ -2,6 +2,7 @@
 
 body{
   background-color:white;
+  font-family: 'Abril Fatface', cursive;
 }
 #left{
   box-sizing: border-box;
@@ -9,7 +10,6 @@ body{
   padding: 25px;
   margin-top: 5px;
   margin: 25px;
-  font-family: 'Abril Fatface', cursive;
   font-size: 25px;
   color: white;
   text-align: center;
@@ -47,7 +47,6 @@ img{
   padding: 25px;
   margin:25px;
   margin-bottom: 5px
-  font-family: 'Abril Fatface', cursive;
   font-size: 25px;
   color: white;
 }
@@ -70,7 +69,6 @@ img{
   background: black;
   padding: 25px;
   margin:25px;
-  font-family: 'Abril Fatface', cursive;
   font-size: 25px;
   color: white;
   text-align: center;
@@ -89,6 +87,7 @@ button{
    display: block;
    margin: 0 auto;
    background-color:red;
+   font-family: 'Abril Fatface', cursive;
    border: none;
    color: white;
    padding: 15px 32px;
@@ -96,14 +95,43 @@ button{
    text-decoration: none;
    font-size: 16px;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-   font-family: 'Abril Fatface', cursive;
+
 }
 h1{
-  font-family: 'Abril Fatface', cursive;
   text-align: center;
 }
 ol{
   text-align: center;
   list-style-position: inside;
-  font-family: 'Abril Fatface', cursive;
+}
+.Save {
+    background:black;
+    color: white;
+    padding: 50px 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    font-family: monospace;
+    font-size: 20px;
+}
+input{
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 10px;
+}
+form{
+  margin:10px;
+  padding: 10px;
+}
+textarea{
+  border: 2px solid red;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+.signs{
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
 }
